@@ -1,44 +1,53 @@
+# 🔍 Comparação: Busca Sequencial vs Busca Binária
 
-# ATIVIDADE DE RECUPERAÇÃO
+Este projeto implementa e compara os algoritmos de **busca sequencial** (`O(n)`) e **busca binária** (`O(log n)`) utilizando uma interface gráfica interativa com **Tkinter**. O foco é demonstrar, de forma prática e visual, o comportamento e desempenho desses algoritmos em diferentes tamanhos de entrada e tipos de caso.
 
-O estudo deve comparar o desempenho dos algoritmos em três aspectos:
+---
 
-**Tamanho da Entrada:**
+## 🎯 Objetivo
 
-1.000 elementos ordenados.
+Avaliar:
+- Tempo de execução
+- Número de posições visitadas
+- Comportamento prático vs. Complexidade teórica
 
-10.000 elementos ordenados.
+---
 
-100.000 elementos ordenados.
+## 🖥️ Interface Gráfica
 
-Tipo de Caso:
-Caso médio: Elemento está em posição aleatória
+A aplicação possui uma GUI intuitiva que permite:
 
-Pior caso: Elemento não está presente na estrutura
+- Escolher entre listas de **1.000**, **10.000** ou um **tamanho personalizado**
+- Ver os resultados para:
+  - **Caso médio** (elemento presente aleatoriamente)
+  - **Pior caso** (elemento inexistente)
+- Observar complexidades teóricas (`O(n)`, `O(log n)`) ao lado dos resultados
 
- Métricas de Comparação:
-Tempo de execução
+---
 
-Quantidade de posições visitadas até encontrar o elemento. .
+## 📸 Captura de Tela
 
-==================================================================
+![Exemplo de Interface](exemplo-interface.png)  
+*Exibição dos resultados comparativos diretamente na aplicação.*
 
+---
 
+## ⚙️ Tecnologias Utilizadas
 
-## Autores
+- **Python 3.11+**
+- **Tkinter** (GUI nativa)
+- **time** (medições de desempenho)
+- **random** (geração de alvo aleatório)
 
-- [Pedro Henrique Santos de Araujo](https://github.com/PedroHenriqueAraujo18)
+---
 
+## 🚀 Como Executar
 
+1. Clone o repositório:
 
-## Documentação
+```bash
+git clone https://github.com/PedroHenriqueAraujo18/Atividade-de-Recupera-o---Avalia-o-P2.git
+cd Atividade-de-Recupera-o---Avalia-o-P2
 
-- [Python](https://docs.python.org/3/)
-
-
-
-## Licença
-
-- [MIT](https://choosealicense.com/licenses/mit/)
-
+python busca_interface.py
 
