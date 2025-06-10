@@ -99,12 +99,13 @@ def build_interface():
     # Botões fixos
     ttk.Button(frame, text="1.000 elementos", command=lambda: run_tests_with_size(1000)).grid(row=1, column=0, pady=5)
     ttk.Button(frame, text="10.000 elementos", command=lambda: run_tests_with_size(10000)).grid(row=1, column=1, pady=5)
+    ttk.Button(frame, text="100.000 elementos", command=lambda: run_tests_with_size(100000)).grid(row=1, column=2, pady=5)
 
     # Entrada personalizada
     ttk.Label(frame, text="Tamanho personalizado:").grid(row=2, column=0)
     global entry_custom_size
     entry_custom_size = ttk.Entry(frame, width=10)
-    entry_custom_size.insert(0, "50000")
+    entry_custom_size.insert(0, "1000000")
     entry_custom_size.grid(row=2, column=1)
 
     ttk.Button(frame, text="Executar", command=run_custom).grid(row=2, column=2)
