@@ -44,5 +44,5 @@ A aplicação possui uma GUI intuitiva que permite:
 git clone https://github.com/PedroHenriqueAraujo18/Atividade-de-Recupera-o---Avalia-o-P2.git
 cd Atividade-de-Recupera-o---Avalia-o-P2
 
-python busca_interface.py
+python busca_sequencial_e_binaria.py
 
