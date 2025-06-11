@@ -25,12 +25,7 @@ A aplicação possui uma GUI intuitiva que permite:
 
 ---
 
-## 📸 Captura de Tela
 
-![Exemplo de Interface](exemplo-interface.png)  
-*Exibição dos resultados comparativos diretamente na aplicação.*
-
----
 
 ## ⚙️ Tecnologias Utilizadas
 
