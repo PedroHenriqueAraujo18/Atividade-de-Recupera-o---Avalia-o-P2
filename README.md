@@ -17,7 +17,7 @@ Avaliar:
 
 A aplicação possui uma GUI intuitiva que permite:
 
-- Escolher entre listas de **1.000**, **10.000** ou um **tamanho personalizado**
+- Escolher entre listas de **1.000**, **10.000**, **100.000** ou um **tamanho personalizado**
 - Ver os resultados para:
   - **Caso médio** (elemento presente aleatoriamente)
   - **Pior caso** (elemento inexistente)
