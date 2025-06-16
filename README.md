@@ -17,7 +17,7 @@ Avaliar:
 
 A aplicação possui uma GUI intuitiva que permite:
 
-- Escolher entre listas de **1.000**, **10.000** ou um **tamanho personalizado**
+- Escolher entre listas de **1.000**, **10.000**, **100.000** ou um **tamanho personalizado**
 - Ver os resultados para:
   - **Caso médio** (elemento presente aleatoriamente)
   - **Pior caso** (elemento inexistente)
@@ -25,12 +25,7 @@ A aplicação possui uma GUI intuitiva que permite:
 
 ---
 
-## 📸 Captura de Tela
 
-![Exemplo de Interface](exemplo-interface.png)  
-*Exibição dos resultados comparativos diretamente na aplicação.*
-
----
 
 ## ⚙️ Tecnologias Utilizadas
 
@@ -49,5 +44,5 @@ A aplicação possui uma GUI intuitiva que permite:
 git clone https://github.com/PedroHenriqueAraujo18/Atividade-de-Recupera-o---Avalia-o-P2.git
 cd Atividade-de-Recupera-o---Avalia-o-P2
 
-python busca_interface.py
+python busca_sequencial_e_binaria.py
 
