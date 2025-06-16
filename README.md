@@ -33,6 +33,7 @@ A aplicação possui uma GUI intuitiva que permite:
 - **Tkinter** (GUI nativa)
 - **time** (medições de desempenho)
 - **random** (geração de alvo aleatório)
+- **matplotlib** (gráfico)
 
 ---
 
