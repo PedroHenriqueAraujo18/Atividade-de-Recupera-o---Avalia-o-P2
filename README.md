@@ -38,7 +38,7 @@ A aplicação possui uma GUI intuitiva que permite:
 
 ## 🚀 Como Executar
 
-1. Clone o repositório:
+1. Clone o repositório e cria acesse a venv:
 
 ```bash
 git clone https://github.com/PedroHenriqueAraujo18/Atividade-de-Recupera-o---Avalia-o-P2.git
